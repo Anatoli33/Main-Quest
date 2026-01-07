@@ -1,0 +1,226 @@
+/* 1. Basic Reset и настройки на body */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #e6f0ff; 
+  color: #1976d2;
+  line-height: 1.6;
+}
+
+/* 2. Главен контейнер */
+#root {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* 3. Header */
+header {
+  background-color: #64b5f6;
+  color: #fff;
+  padding: 1em 0;
+  text-align: center;
+  
+}
+
+/* 4. Навигация */
+/* nav{
+  display: flex;
+  margin-left: 16px;
+  justify-content: space-between;
+} */
+nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: #f4f4f4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #00499d;
+}
+
+/* 5. Footer */
+footer {
+  background-color: #1976d2;
+  color: #fff;
+  text-align: center;
+  padding: 1em 0;
+  font-size: 0.8em;
+}
+
+/* 6. Основно съдържание */
+main {
+  padding: 20px 0;
+}
+
+h1, h2, h3 {
+  color: #00499d;
+  margin-bottom: 0.5em;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+/* 7. App контейнер */
+.app {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 2px solid #b3d4fc;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 8. Quiz и резултати */
+.quiz h2,
+.results h2 {
+  color: #1976d2;
+}
+
+.results p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+/* 9. Отговори */
+#answer-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* 10. Бутони */
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #90caf9;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1e88e5;
+}
+
+#next-btn {
+  margin-top: 20px;
+  background-color: #1e88e5;
+}
+
+#next-btn:hover {
+  background-color: #064a8f;
+}
+
+/* 11. Опции */
+.options {
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.options li {
+  margin: 4px 0;
+  font-size: 16px;
+}
+
+/* 12. Прогрес бар */
+.progress-bar-container {
+  background-color: #eee;
+  height: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  background-color: #4caf50;
+  height: 100%;
+  transition: width 0.3s ease-in-out;
+}
+
+/* 13. Примерен документ */
+.example-document {
+  background-color: #f9f9f9;
+  color: black;
+  border-left: 4px solid skyblue;
+  padding: 18px;
+  font-family: 'Times New Roman', Times, serif, monospace;
+  white-space: pre-wrap;
+  margin-top: 12px;
+  line-height: 1.5;
+}
+/*ABOUT US*/
+.about-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-header h1 {
+  margin-bottom: 10px;
+}
+
+.about-header a {
+  color: #333;
+  text-decoration: none;
+}
+
+.about-socials {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #444;
+  transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+  color: #0077b5; /* можеш да смениш цвета */
+}
+
+.about-description {
+  text-align: justify;
+}
+
+
+.subject-button-link {
+    display: block; /* Прави всеки линк да заема цял ред */
+    margin-bottom: 10px; /* Добавя малко разстояние между бутоните */
+}
