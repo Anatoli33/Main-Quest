@@ -12,7 +12,7 @@ function midTemp() {
     <h1>Избери предмет</h1>
     <a href="/test" class="subject-button-link"><button>Български език - входно ниво</button></a>
     <a href="/testMath" class="subject-button-link"><button>Математика - входно ниво</button></a>
-    <a href="/entryTestEN" class="subject-button-link"><button>Английски език - входно ниво B1</button></a>
+    <a href="/testEN" class="subject-button-link"><button>Английски език - входно ниво B1</button></a>
     <a href="/bel" class="subject-button-link"><button>Български език</button></a>
     <a href="/math" class="subject-button-link"><button>Математика</button></a>
   </div>
