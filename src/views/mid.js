@@ -13,7 +13,6 @@ function midTemp() {
     <a href="/test" class="subject-button-link"><button>Български език - входно ниво</button></a>
     <a href="/testMath" class="subject-button-link"><button>Математика - входно ниво</button></a>
     <a href="/testEN" class="subject-button-link"><button>Английски език - входно ниво B1</button></a>
-
   </div>
 </section>
     `;
