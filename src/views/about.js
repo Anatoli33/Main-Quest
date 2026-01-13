@@ -34,7 +34,7 @@ body {
 .profile-left img {
     max-width: 150px;
     height: auto;
-    border-radius: 50%;
+    border-radius: 30%;
     margin-bottom: 20px;
     margin-left: 34px;
 }
